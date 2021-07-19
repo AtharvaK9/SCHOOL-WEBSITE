@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+}
+#headdiv h1 {
+    font-size: 20;
+    background-color: chartreuse;
+    color: red;
+}
+img {
+    border: 5px;
+    border-bottom-color: aqua;
+    border-top-color: orangered;
+    border-left-color: gold;
+    border-right-color: chartreuse;
+}
+.topnav {
+    overflow: hidden;
+}
+.topnav a {
+    float: left;
+    text-align: center;
+    text-decoration:none;
+    font-size: 25px;
+}
+.topnav a:hover {
+    background-color: blue;
+}
+.topnav a.active {
+    background-color: red;
+}
