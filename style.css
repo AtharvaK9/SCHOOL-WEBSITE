@@ -15,11 +15,13 @@ img {
 }
 .topnav {
     overflow: hidden;
+    margin-left: 10px;
 }
 .topnav a {
     float: left;
     text-align: center;
     text-decoration:none;
+    margin-left: 20px;
     font-size: 25px;
 }
 .topnav a:hover {
@@ -27,4 +29,14 @@ img {
 }
 .topnav a.active {
     background-color: red;
+}
+
+#contact h4 , h5 {
+    font-size: 25px;
+}
+#contact h5 a  {
+    color: blue
+}
+#contact h2 {
+    color: red;
 }
