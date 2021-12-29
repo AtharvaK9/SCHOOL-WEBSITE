@@ -1,5 +1,6 @@
 body {
     text-align: center;
+    background-image: url("https://venngage-wordpress.s3.amazonaws.com/uploads/2018/09/Natural-Wood-Panels-Simple-Background-Image.jpeg");
 }
 #headdiv h1 {
     font-size: 20;
@@ -23,20 +24,28 @@ img {
     text-decoration:none;
     margin-left: 20px;
     font-size: 25px;
+    color: yellow;
 }
 .topnav a:hover {
-    background-color: blue;
+    background-color:gray;
 }
 .topnav a.active {
-    background-color: red;
+    background-color: navy;
 }
 
 #contact h4 , h5 {
     font-size: 25px;
+    color: white;   
 }
 #contact h5 a  {
-    color: blue
+    color: pink
 }
 #contact h2 {
-    color: red;
+    color: yellow;
+}
+#home h1  {
+    color: cyan;
+}
+#home h2 {
+    color: cyan;
 }
